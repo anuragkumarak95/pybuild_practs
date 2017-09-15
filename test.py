@@ -9,7 +9,8 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(awesome.smile(), ":)")
         self.assertEqual(awesome.frown(), ":(")
 
-
+    def test_sub(self):
+        self.assertEqual(awesome.smile(), ":)")
 
 if __name__ == '__main__':
     unittest.main()
