@@ -3,7 +3,7 @@ import unittest
 import awesome
 
 
-class TestMethods(unittest.TestCase):
+class TestMethods2(unittest.TestCase):
     def test_add(self):
         self.assertEqual(awesome.smile(), ":)")
         self.assertEqual(awesome.smile(), ":)")
